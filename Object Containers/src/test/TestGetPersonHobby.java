@@ -12,16 +12,14 @@ public class TestGetPersonHobby {
     Person p2 = new Person("3454471", "Andreea", 22, "072123501");
 
     Country ro = new Country("Romania", "40");
-
     Address addressRo = new Address("Brasov", ro);
-
     List<Address> hobbyAddress = new ArrayList();
 
     Hobby badminton = new Hobby("Badminton", 5, hobbyAddress);
-
     List<Hobby> hobby = new ArrayList();
+
     Map<Person, List<Hobby>> personHobby = new HashMap<>();
-    List testList=new ArrayList();
+    List testList = new ArrayList();
 
     @Test
 
@@ -29,7 +27,7 @@ public class TestGetPersonHobby {
         hobbyAddress.add(addressRo);
         hobby.add(badminton);
         personHobby.put(p1, hobby);
-        testList=PersonHobbyApp.getPersonHobby(personHobby,p1);
+        testList = PersonHobbyApp.getPersonHobby(personHobby, p1);
         Assert.assertNotNull(testList);
     }
 
@@ -37,8 +35,7 @@ public class TestGetPersonHobby {
     public void getPersonHobbyWithNull() {
         hobbyAddress.add(addressRo);
         hobby.add(badminton);
-        personHobby.put(p1, hobby);
-        testList=PersonHobbyApp.getPersonHobby(personHobby,p2);
+        testList = PersonHobbyApp.getPersonHobby(personHobby, p2);
         Assert.assertNull(testList);
     }
 }

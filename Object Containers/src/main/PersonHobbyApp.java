@@ -11,6 +11,7 @@ public class PersonHobbyApp {
         Person p4 = new Person("60894", "Daniel", 47, "0723498126");
         Person p5 = new Person("40871", "Oana", 35, "0723445678");
 
+
         Set personSet = new TreeSet(new PersonAgeComparator().reversed());
 
         personSet.add(p1);
@@ -21,7 +22,7 @@ public class PersonHobbyApp {
 
         for (Object o : personSet) {
             Person person = (Person) o;
-            System.out.println("Nume: " + person.getName() + " Varsta: " + person.getAge());
+            System.out.println("Name: " + person.getName() + " Age: " + person.getAge());
         }
         System.out.println("---------------------------");
 
@@ -65,6 +66,7 @@ public class PersonHobbyApp {
         getPersonHobby(personHobby, p2);
         // getPersonHobby(personHobby, p3);
 
+        getPersonHobby(personHobby, p4);
 
     }
 
@@ -73,12 +75,14 @@ public class PersonHobbyApp {
 
         if (personHobbyList.containsKey(person)) {
 
-            System.out.println(person.getName() + " are ca hobby " + personHobbyList.get(person) + "\n");
+            System.out.println(person.getName() + " has the following hobbies " + personHobbyList.get(person) + "\n");
 
             return personHobbyList.get(person);
 
         }
+        System.out.println(person.getName() + " has no known hobbies.");
         return null;
+
 
     }
 

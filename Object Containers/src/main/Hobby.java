@@ -10,11 +10,12 @@ public class Hobby {
 
 
     public Hobby(String nameOfHobby, Integer frequency, List<Address> hobbyAddress1) {
-      this();
+        this();
         this.nameOfHobby = nameOfHobby;
         this.frequency = frequency;
         this.hobbyAddress = hobbyAddress1;
     }
+
     public Hobby() {
 
     }
