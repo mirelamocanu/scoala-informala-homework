@@ -70,6 +70,13 @@ public class PersonHobbyApp {
 
     }
 
+    /**
+     * This method takes a Map and a Person object and returns a list of hobbies for the specified person.
+     * @param personHobbyList Map with key a Person object and value a list of hobbies
+     * @param person object
+     * @return the list of hobbies for a specific person.
+     */
+
 
     public static List getPersonHobby(Map<Person, List<Hobby>> personHobbyList, Person person) {
 
