@@ -12,7 +12,7 @@ public class PersonHobbyApp {
         Person p5 = new Person("40871", "Oana", 35, "0723445678");
 
 
-        Set personSet = new TreeSet(new PersonAgeComparator().reversed());
+        Set personSet = new TreeSet(new PersonAgeComparator());
 
         personSet.add(p1);
         personSet.add(p2);
