@@ -162,15 +162,7 @@ public class TestStudent {
         Assert.assertTrue(v < 0);
     }
 
-    @Test
-    public void printSortedListByLastName(){
-        Student.printSortedListByLastName();
-    }
 
-    @Test
-    public void printSortedListByBirthDate(){
-        Student.printSortedListByBirthDate();
-    }
 }
 
 

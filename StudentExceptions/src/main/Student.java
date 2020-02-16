@@ -196,9 +196,9 @@ public class Student {
     }
 
     /**
-     * This method returns the
+     * This method stores the Student objects found in the Student HashMap, in an arraylist and sorts it by last name.
      *
-     * @return
+     * @return umnodifiable arraylist of sorted Student objects.
      */
     public static List<Student> printSortedListByLastName() {
 
@@ -214,6 +214,11 @@ public class Student {
 
     }
 
+    /**
+     * This method stores the Student objects found in the Student HashMap, in an arraylist and sorts it by birth date.
+     *
+     * @return umnodifiable arraylist of sorted Student objects.
+     */
     public static List<Student> printSortedListByBirthDate() {
 
         List<Student> students = new ArrayList<>();
