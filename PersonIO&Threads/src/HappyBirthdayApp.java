@@ -10,7 +10,6 @@ public class HappyBirthdayApp {
         long currentTime = System.currentTimeMillis();
 
         //timeWithoutThreads();
-
         timeWithThreads();
 
         long timeItTook = System.currentTimeMillis() - currentTime;
