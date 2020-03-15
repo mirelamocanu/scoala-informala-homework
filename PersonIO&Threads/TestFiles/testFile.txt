@@ -1,0 +1,21 @@
+Son Willms,1955-03-15,female
+Hilario Stiedemann,1963-03-16,female
+Eufemia Kiehn,1997-03-17,female
+Les Dickens,1965-03-18,female
+Timmy Waelchi,1968-03-19,female
+Leandro Jerde,1989-03-20,female
+Darnell Sauer,1995-03-21,female
+Sidney Waelchi,1955-03-22,female
+Corrin Lehner,1996-03-23,female
+Alexis White,1995-03-20,male
+
+Kurt Moen,1983-03-22,0
+Peggy Treutel,1963-03-23,0
+Perry Stanton,1992-10-29,0
+Mellisa Weissnat,1994-12-30,1
+Sage Williamson,1972-03-24,1
+Otha Schaden,1983-03-25,1
+Sanda Will,1961-03-26,1
+Dillon Barrows,1984-03-27,1
+Abram Gorczany,1958-07-01,0
+Devon Hettinger,1988-05-29,1
